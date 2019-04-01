@@ -13,6 +13,7 @@ function getRandomInt(min, max) {
 
 
 client.on('ready', () => {
+    client.user.setGame('!drop');
     console.log('I am ready!');
 });
 
